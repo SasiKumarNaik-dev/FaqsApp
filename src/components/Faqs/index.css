@@ -1,0 +1,41 @@
+/* Write your code here. */
+
+.app-page {
+  min-height: 100vh;
+  background-color: #f1f5f8;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+}
+.app {
+  width: 80%;
+  background-color: #ffffff;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+.faqs-div {
+  width: 80%;
+  padding-left: 0px;
+}
+.heading {
+  font-size: 45px;
+}
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 30px;
+  }
+  .faqs-div {
+    width: 90%;
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .heading {
+    font-size: 25px;
+  }
+}
